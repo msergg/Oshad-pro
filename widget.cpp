@@ -36,6 +36,7 @@ Widget::Widget(QWidget *parent) :
 
 
     /*
+      klkk
       1111
     QDir dir(QString("in\\"));
     QString entryAbsPath;
