@@ -9,7 +9,8 @@ int main(int argc, char *argv[])
 
     w.show();
 
-   QTextCodec* tc = QTextCodec::codecForName("CP1251");
+    //set codecs for dos text reading
+     QTextCodec* tc = QTextCodec::codecForName("CP1251");
      QTextCodec::setCodecForTr(tc);
      QTextCodec::setCodecForCStrings(tc);
      QTextCodec::setCodecForLocale(tc);
